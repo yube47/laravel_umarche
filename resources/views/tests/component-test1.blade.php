@@ -7,5 +7,6 @@
 コンポーネントテスト1
     <x-tests.card title="タイトル1" content="本文1" :message="$message"></x-tests.app>
     <x-tests.card title="タイトル2"></x-tests.card>
+    <x-tests.card title="ここだけCSS変更" class="bg-red-300" />
 </x-tests.app>
 
