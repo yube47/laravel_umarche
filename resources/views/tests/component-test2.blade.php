@@ -1,10 +1,12 @@
 
 <x-tests.app>
-<x-slot name="header">
-ヘッダー２
-</x-slot>
-コンポーネントテスト2
+    <x-slot name="header">
+    ヘッダー２
+    </x-slot>
+    コンポーネントテスト2
+    <x-test-class-base classBaseMessage="メッセージです"></x-test-class-base>
+<br>
+    <x-test-class-base classBaseMessage="メッセージです" defaultMessage="初期値変更でーす"></x-test-class-base>
 
-<x-tests.card title="タイトル2" content="本文2"></x-tests.app>
 
 </x-tests.app>
